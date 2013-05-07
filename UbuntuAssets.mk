@@ -14,3 +14,7 @@ PRODUCT_COPY_FILES += \
 # Build stamp
 PRODUCT_COPY_FILES += \
     ubuntu/assets/ubuntu_stamp:/system/ubuntu_stamp
+
+# Autopilot
+PRODUCT_COPY_FILES += \
+	$(UBUNTU_PATH)/autopilot-finger.idc:/system/usr/idc/autopilot-finger.idc
