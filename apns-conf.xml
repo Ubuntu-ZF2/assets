@@ -4535,6 +4535,30 @@
       type="mms"
   />
 
+  <apn carrier="GO Mobile postpaid"
+      mcc="278"
+      mnc="21"
+      apn="gosurfing"
+      type="default,supl"
+  />
+
+  <apn carrier="GO Mobile prepaid"
+      mcc="278"
+      mnc="21"
+      apn="rtgsurfing"
+      type="default,supl"
+  />
+
+  <apn carrier="GO Mobile MMS"
+      mcc="278"
+      mnc="21"
+      apn="gomms"
+      mmsc="http://mmsc"
+      mmsproxy="10.20.20.129"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="CYTA"
       mcc="280"
       mnc="01"
