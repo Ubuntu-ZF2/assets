@@ -20529,4 +20529,23 @@
       port="8080"
       type="default"
   />
+
+  <apn carrier="giffgaff Internet"
+      mcc="234"
+      mnc="10"
+      apn="giffgaff.com"
+      user="giffgaff"
+      type="default,supl"
+  />
+
+  <apn carrier="giffgaff MMS"
+      mcc="234"
+      mnc="10"
+      apn="giffgaff.com"
+      user="giffgaff"
+      mmsc="http://mmsc.mediamessaging.co.uk:8002"
+      mmsproxy="82.132.254.1"
+      mmsport="8080"
+      type="mms"
+  />
 </apns>
