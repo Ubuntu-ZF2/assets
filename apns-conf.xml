@@ -945,6 +945,53 @@
       type="mms"
   />
 
+  <apn carrier="Pepephone"
+      mcc="214"
+      mnc="05"
+      apn="gprs.pepephone.com"
+      type="default,supl"
+      mvno_match_data="pepephone"
+      mvno_type="spn"
+  />
+
+  <apn carrier="MMS Pepephone"
+      mcc="214"
+      mnc="05"
+      apn="gprs.pepephone.com"
+      mmsc="http://www.pepephone.com"
+      mmsproxy="10.138.255.43"
+      mmsport="8080"
+      type="mms"
+      authtype="1"
+      mvno_match_data="pepephone"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Tuenti Internet"
+      mcc="214"
+      mnc="05"
+      apn="tuenti.com"
+      user="tuenti"
+      password="tuenti"
+      type="default,supl"
+      mvno_match_data="Tuenti"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Tuenti MMS"
+      mcc="214"
+      mnc="05"
+      apn="tuenti.com"
+      user="tuenti"
+      password="tuenti"
+      mmsc="http://tuenti.com"
+      mmsproxy="10.138.255.43"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="Tuenti"
+      mvno_type="spn"
+  />
+
   <apn carrier="INTERNET GPRS"
       mcc="214"
       mnc="06"
@@ -1068,6 +1115,30 @@
       type="mms"
       mvno_match_data="2140606"
       mvno_type="imsi"
+  />
+
+  <apn carrier="Pepephone"
+      mcc="214"
+      mnc="06"
+      apn="gprsmov.pepephone.com"
+      type="default,supl"
+      mvno_match_data="pepephone"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Pepephone MMS"
+      mcc="214"
+      mnc="06"
+      apn="mms.pepephone.com"
+      user="wap@wap"
+      password="wap125"
+      mmsc="http://mms.pepephone.com/servlets/mms"
+      mmsproxy="212.73.32.10"
+      mmsport="80"
+      type="mms"
+      authtype="1"
+      mvno_match_data="pepephone"
+      mvno_type="spn"
   />
 
   <apn carrier="Movistar"
@@ -1205,6 +1276,31 @@
       mnc="27"
       apn="truphone.com"
       type="default,supl"
+  />
+
+  <apn carrier="Tuenti Internet"
+      mcc="214"
+      mnc="32"
+      apn="tuenti.com"
+      user="tuenti"
+      password="tuenti"
+      type="default,supl"
+      mvno_match_data="Tuenti"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Tuenti MMS"
+      mcc="214"
+      mnc="32"
+      apn="tuenti.com"
+      user="tuenti"
+      password="tuenti"
+      mmsc="http://tuenti.com"
+      mmsproxy="10.138.255.43"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="Tuenti"
+      mvno_type="spn"
   />
 
   <apn carrier="Telenor MMS"
