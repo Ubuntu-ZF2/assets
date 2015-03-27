@@ -2390,6 +2390,21 @@
       mvno_type="gid"
   />
 
+  <apn carrier="giffgaff"
+      mcc="234"
+      mnc="10"
+      apn="giffgaff.com"
+      authtype="1"
+      user="giffgaff"
+      password=""
+      mmsc="http://mmsc.mediamessaging.co.uk:8002"
+      mmsproxy="82.132.254.1"
+      mmsport="8080"
+      type="default,mms"
+      mvno_type="spn"
+      mvno_match_data="giffgaff"
+  />
+
   <apn carrier="O2 MOBILE WEB"
       mcc="234"
       mnc="11"
@@ -20695,24 +20710,5 @@
       proxy="10.150.0.115"
       port="8080"
       type="default"
-  />
-
-  <apn carrier="giffgaff Internet"
-      mcc="234"
-      mnc="10"
-      apn="giffgaff.com"
-      user="giffgaff"
-      type="default,supl"
-  />
-
-  <apn carrier="giffgaff MMS"
-      mcc="234"
-      mnc="10"
-      apn="giffgaff.com"
-      user="giffgaff"
-      mmsc="http://mmsc.mediamessaging.co.uk:8002"
-      mmsproxy="82.132.254.1"
-      mmsport="8080"
-      type="mms"
   />
 </apns>
